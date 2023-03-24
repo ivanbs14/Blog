@@ -10,7 +10,6 @@ import { ButtonText } from '../../componentes/ButtonText';
 
 import imgLogo from "../../assets/logo.png"
 import imgUser from "../../assets/user.png"
-import imgModelo from "../../assets/default.png"
 
 export function Details() {
   const [idPost, setIdPost] = useState([]);
@@ -45,7 +44,6 @@ export function Details() {
             {
               idPost.map(ind => (
                 <li key={String(ind.id)} >
-                  <img src={imgModelo} alt="modelo de imagem" />
                   <ButtonText 
                     title={ind.title} 
                     onClick={() => handleDetails(ind.id)}

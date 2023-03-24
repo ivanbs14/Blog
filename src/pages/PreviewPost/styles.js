@@ -39,7 +39,7 @@ export const Conteiner = styled.div`
             border-radius: 8px;
 
             background: ${({theme}) => theme.COLORS.BACKGROUND_700};
-            box-shadow: 5px 2px 2px ${({theme}) => theme.COLORS.BORDER_500};
+            box-shadow: 2px 1px 1px ${({theme}) => theme.COLORS.BORDER_500};
         }
     
         button {
@@ -53,7 +53,7 @@ export const Conteiner = styled.div`
             border-radius: 8px;
             
             background: ${({theme}) => theme.COLORS.BACKGROUND_700};
-            box-shadow: 5px 2px 2px ${({theme}) => theme.COLORS.BORDER_500};
+            box-shadow: 2px 1px 1px ${({theme}) => theme.COLORS.BORDER_500};
         
             > p {
                 font-family: 'Roboto Slab', serif;

@@ -16,12 +16,12 @@ export const Conteiner = styled.div`
         align-items: center;
 
         .logo {
-            width: 200px;
+            width: 250px;
 
         }
 
         .avatar {
-            width: 100px;
+            width: 80px;
             border-radius: 50%;
         }
     }
@@ -49,31 +49,25 @@ export const Content = styled.div`
 
             > li {
                 width: 260px;
-                height: 300px;
+                height: 180px;
 
                 font-size: ${px2vw(24)};
     
                 margin-bottom: ${px2vw(24)};
                 padding: 24px;
 
-                border: 0.5px solid ${({theme}) => theme.COLORS.BORDER_500};
-                border-radius: 8px;
-                box-shadow: 5px 2px 2px ${({theme}) => theme.COLORS.BORDER_500};
+                border-radius: 4px;
+                box-shadow: 2px 1px 1px ${({theme}) => theme.COLORS.BORDER_500};
     
                 background: ${({theme}) => theme.COLORS.BACKGROUND_700};
 
                 position: relative;
-                img {
-                    width: 100%;
-                    height: 110px;
-                }
                
                 button {
-                    height: 220px;
+                    height: 110px;
 
-                    margin-top: -130px;
                     margin-left: -24px;
-                    padding: 140px 24px 0;
+                    padding: 0 16px;
 
                     display: flex;
                     text-align: start;
@@ -92,7 +86,7 @@ export const Content = styled.div`
                     justify-content: end;
 
                     margin-top: 110px;
-                    padding: 0 30px;
+                    padding: 0 16px;
 
                     font-size: 16px;
 

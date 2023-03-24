@@ -12,6 +12,6 @@ export const Conteiner = styled.section`
 
         color: ${({theme}) => theme.COLORS.GRAY_60};
         font-weight: 400;
-        font-size: ${px2vw(20)};
+        font-size: ${px2vw(24)};
     }
 `;
