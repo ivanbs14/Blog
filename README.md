@@ -2,7 +2,7 @@
 
 <p align="center">
 Desenvolvido por Ivan Barbosa.<br>
-Visite o projeto finalizado https://notemovies.netlify.app/ 
+Visite o projeto finalizado  
 
 <div align="center">
   <img alt="License" src="./capa/Captura de Tela 2023-03-24 às 20.35.09.png" width="40%" display="flex" gap="5px" >
@@ -34,11 +34,11 @@ Para o Cliente, usamos:
 
 ## 💻 Clone e acesse o projeto
 ------------
-    `git clone https:/`
+    `https://github.com/ivanbs14/Blog.git`
 
     or 
 
-    `gh repo clone `
+    `gh repo clone ivanbs14/Blog`
 
 ## 💻 Setup and Run Client
 ------------
