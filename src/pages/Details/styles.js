@@ -16,12 +16,12 @@ export const Conteiner = styled.div`
         align-items: center;
 
         .logo {
-            width: 250px;
+            width: ${px2vw(250)};
 
         }
 
         .avatar {
-            width: 80px;
+            width: ${px2vw(80)};
             border-radius: 50%;
         }
     }
@@ -42,7 +42,8 @@ export const Content = styled.div`
         
         .post {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+            gap: 24px;
             flex-wrap: wrap;
 
             padding: 16px;
@@ -96,5 +97,25 @@ export const Content = styled.div`
 
         }
         
-    }
+    };
+
+    @media (max-width: 768px) {
+        header {
+
+            .logo {
+                width: ${px2vw(300)};
+            }
+
+            .avatar {
+                width: ${px2vw(160)};
+            }
+        }
+
+        section {
+            h2 {
+                font-weight: 400;
+                font-size: ${px2vw(48)};
+            }
+        }
+    };
 `;

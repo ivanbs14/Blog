@@ -40,9 +40,9 @@ Para o Cliente, usamos:
 
     `gh repo clone ivanbs14/Blog`
 
-## 💻 Setup and Run Client
+## 💻 Configurar e executar cliente
 ------------
-Access the client folder:
+Acesse a pasta do cliente:
 
 `cd blog/`
 
@@ -52,10 +52,10 @@ Agora, instale e execute seu aplicativo
 
 `npm run dev`
 
-Verifique seu aplicativo front-end esta em execução no local: http://localhost:5173/ <br />(este endereço acima pode variar)
+Verifique se o aplicativo front-end esta em execução no local: http://localhost:5173/ <br />(este endereço acima pode variar)
 
 
-## :memo: Qualquer dúvida, me envie um e-mail para
+## :memo: Qualquer dúvida, envie um e-mail para
 
 `ivanbarbosa14@hotmail.com`
 
