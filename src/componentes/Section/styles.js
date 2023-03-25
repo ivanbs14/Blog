@@ -13,5 +13,11 @@ export const Conteiner = styled.section`
         color: ${({theme}) => theme.COLORS.GRAY_60};
         font-weight: 400;
         font-size: ${px2vw(24)};
-    }
+    };
+
+    @media (max-width: 768px) {
+        >h2{
+            font-size: ${px2vw(36)};
+        }
+    };
 `;

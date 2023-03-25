@@ -52,7 +52,7 @@ export function PreviewPost() {
 
                     <h1>{data.title}</h1>
                     
-                    <p>{data.body}</p>
+                    <p className="pfather">{data.body}</p>
 
                     {
                         dataComent &&

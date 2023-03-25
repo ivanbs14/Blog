@@ -66,8 +66,27 @@ export const Conteiner = styled.div`
     }
 
     @media (max-width: 768px) {
+
+        .pfather {
+            font-size: ${px2vw(32)};
+        }
+
         main{
+
+            button{
+                font-size: ${px2vw(32)};
+            }
+
             max-width: ${px2vw(1100)};
+            height: 100px;
+
+            li {
+                font-size: ${px2vw(32)};
+
+                >p {
+                    font-size: ${px2vw(36)};
+                }
+            }
         }
     }
 
