@@ -2,7 +2,8 @@
 
 <p align="center">
 Desenvolvido por Ivan Barbosa.<br>
-Visite o projeto finalizado  
+Visite o projeto finalizado https://blog-post-s.netlify.app/
+</p>
 
 <div align="center">
   <img alt="License" src="./capa/Captura de Tela 2023-03-24 às 20.35.09.png" width="40%" display="flex" gap="5px" >
@@ -53,6 +54,8 @@ Agora, instale e execute seu aplicativo
 `npm run dev`
 
 Verifique se o aplicativo front-end esta em execução no local: http://localhost:5173/ <br />(este endereço acima pode variar)
+
+Se preferir visite o deploy (temporário) do projeto em: https://blog-post-s.netlify.app/
 
 
 ## :memo: Qualquer dúvida, envie um e-mail para
