@@ -24,12 +24,22 @@ export const Conteiner = styled.div`
         margin: 0 auto;
         padding-bottom: 32px;
         
+        button {
+            margin-top: ${px2vw(60)};
+        }
+        
         > h1 {
             font-size: ${px2vw(32)};
             font-weight: 500;
             padding-top: ${px2vw(16)};
-            margin-bottom: ${px2vw(16)};
+            margin: 16px 0 16px 0;
         }
+
+        .pfather {
+            border: none;
+            box-shadow: none;
+        }
+        
     
         > p {
             font-size: ${px2vw(16)};
@@ -40,10 +50,6 @@ export const Conteiner = styled.div`
 
             background: ${({theme}) => theme.COLORS.BACKGROUND_700};
             box-shadow: 2px 1px 1px ${({theme}) => theme.COLORS.BORDER_500};
-        }
-    
-        button {
-            margin-top: ${px2vw(34)};
         }
     
         li {
@@ -61,6 +67,7 @@ export const Conteiner = styled.div`
                 color: ${({theme}) => theme.COLORS.GRAY_50};
 
                 margin-bottom: 8px;
+
             }
         }
     }
@@ -68,10 +75,16 @@ export const Conteiner = styled.div`
     @media (max-width: 768px) {
 
         .pfather {
-            font-size: ${px2vw(32)};
+            font-size: ${px2vw(32)};            
         }
 
         main{
+
+            h1 {
+                font-size: ${px2vw(38)};
+
+                margin-bottom: 16px;
+            }
 
             button{
                 font-size: ${px2vw(32)};
